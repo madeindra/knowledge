@@ -1,3 +1,4 @@
-# Personal Knowledge
+# Home
 
-A repository dedicated for documenting my knowledge
+A repository dedicated to documenting my knowledge
+
