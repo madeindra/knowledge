@@ -1,12 +1,12 @@
----
-description: 'HTTP Live Stream, also known as HLS.'
----
-
 # HTTP Live Stream
 
-#### Using Chrome Extensions
+HTTP Live Stream, also known as HLS.
 
-Sometimes you want to download a video you watch on the internet, maybe it's a cat video that you want to share to your friend. Not all website put a video in a downloadable format, HLS is one of them.
+Sometimes you want to download a video you watch on the internet, maybe it's a cat video that you want to share with your friend. Not all website put a video in a downloadable format, HLS is one of them.
+
+
+
+#### Using Chrome Extensions
 
 To download HLS videos, there are two chrome extensions that I recommend:
 
