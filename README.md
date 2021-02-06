@@ -1,6 +1,8 @@
 # Home
 
-Welcome to my Knowledge repository.
+Selamat datang di _knowledge repository_.
 
-This repository is dedicated to documenting my knowledge or experiences.
+Halaman ini bertujuan untuk mengumpulkan pengetahuan dan pengalaman saya.
+
+Jika ada masukkan, silahkan sampaikan melalui kontak yang tertera di [https://madecanggih.dev](https://madecanggih.dev/)
 
