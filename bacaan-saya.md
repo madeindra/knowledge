@@ -24,11 +24,7 @@ description: Daftar bacaan yang paling berkesan bagi saya
 
 ### **Manga**
 
-**Noragami** oleh **Adachitoka**
-
 **Fullmetal Alchemist** oleh **Hiromu Arakawa**
 
-\*\*\*\*
-
-\*\*\*\*
+**Noragami** oleh **Adachitoka**
 
