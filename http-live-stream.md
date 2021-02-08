@@ -1,58 +1,58 @@
 # HTTP Live Stream
 
-HTTP Live Stream, also known as HLS.
+HTTP Live Stream, atau yang biasa disingkat HLS.
 
-Sometimes you want to download a video you watch on the internet, maybe it's a cat video that you want to share with your friend. Not all website put a video in a downloadable format, HLS is one of them.
+Terkadang, ketika kita ingin mengunduh video yang kita tonton di internet, misalnya video kucing lucu yang ingin kita bagikan ke teman kita. Tapi sayangnya, tidak semua website meletakkan video di website mereka dalam format yang bisa diunduh, HLS adalah salah satunya.
 
+#### 
 
+### Menggunakan Extension di Chrome
 
-#### Using Chrome Extensions
+Untuk mengunduh video HLS, ada dua _extension_ di Chrome yang saya rekomendasikan:
 
-To download HLS videos, there are two chrome extensions that I recommend:
+* [HLS Downloader](https://github.com/puemos/hls-downloader-web-extension): Mengunduh video HLS dengan mudah dalam format `.ts`
+* [Stream Recorder](https://www.hlsloader.com/): Tidak hanya mengunduh, bisa juga untuk merekam video HLS ke dalam format `.mp4`
 
-* [HLS Downloader](https://github.com/puemos/hls-downloader-web-extension): Download HLS video easily in `.ts` format
-* [Stream Recorder](https://www.hlsloader.com/): Not only download, but you can also record HLS video to `.mp4` format
+#### 
 
+### Menggunakan youtube-dl
 
+Selain dengan _extension_, kita juga bisa mengunduh dengan `youtube-dl`. Untungnya, program ini tidak hanya mendukung Youtube, seperti namanya, tapi juga banyak website lain. [Klik untuk mengunjungi _repository_ Github youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
-#### Using youtube-dl
-
-Alternatively, you can download it with `youtube-dl`. Fortunately, this program not only support Youtube, like the name, but also a bunch of other sites. [Click to visit youtube-dl Github repository](https://github.com/ytdl-org/youtube-dl).
-
-Let's say you found an interesting video on Youtube and want to download it, simply copy the URL, it will be something like this:
+Misalnya kita menemukan video yang menarik di Youtube dan kita ingin mengunduhnya, cukup salin URL video tersebut, bentuknya seperti ini:
 
 ```text
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
-You can simply download this video using this commands. 
+Kemudian kita bisa menggunakan _command_ ini untuk mengunduh video itu. 
 
 ```text
 youtube-dl https://www.youtube.com/watch\?v=dQw4w9WgXcQ
 ```
 
-Notice that there is a difference in the url, before the `?` there is a `\` , this is called escaping. Simply because without it, the program can't understand the url correctly.
+Kalau dilihat, ada perbedaan pada URL nya, sebelum `?` terdapat `\` , ini disebut _escaping_. Karena tanpa melakukan _escaping_, program tidak bisa membaca URL dengan benar.
 
 
 
-#### Encrypted HLS
+### HLS Terenkripsi
 
-HLS can be encrypted, for example with `AES-128`. For this, you can simply download the stream using  HLS Downloader extension.
+HLS bisa dienkripsi, contohnya dengan `AES-128`. Untuk kasus ini, kita bisa mengunduh video menggunakan _extension_ HLS Downloader.
 
-In some case, encrypted stream caused the file unable to be played. To overcome this, you can record the stream with Stream Recorder extension, but in my experience the quality can differ a little to the original. 
+Terkadang video yang terenkripsi tidak bisa dimainkan. Untuk mengatasi ini, kita bisa merekam videonya dengan _extension_ Stream Recorder, tapi bisa jadi kualitas videonya sedikit berbeda dari kualitas aslinya. 
 
-But, if you want to decrypt the `.ts` file downloaded, here the step you can follow:
+Tentu ada cara untuk melakukan dekripsi file `.ts` yang sudah diunduh, ikuti langkah berikut:
 
-1. Download `ffmpeg`, [click to see their website](https://ffmpeg.org/).
-2. Go to your stream and find the `m3u8` file. You can try `View Source` or open developer tool and look in `Network` tab on Google Chrome.
-3.  Open the `m3u8` file and look into `EXT-X-KEY` section. You will see a `URI`, open the `URI` in browser and you will download the Encryption Key, rename it to `enc.key` \(any name will work\).
-4. Edit the `URI` of the `EXT-X-KEY` section to `enc.key` \(or other name that you use\).
-5. Edit the `m3u8` file. Look into the `EXTINF` section, it will have number following it. That number indicate the duration of the file. Sum all the `EXTINF` sections to know the total duration.
-6. Delete all `EXTINF` sections and create a new `EXTINF` section with total duration following it.
-7. Under that, put the name of the `.ts` file.
-8. Put the `.ts`, `.key`, and `.m3u8` file in one directory.
-9. Now try to play the `m3u8` file on a media player like VLC, you should be able to play it now.
-10. To convert it to mp4, run this `ffmpeg` command:
+1. Unduh `ffmpeg`, [klik untuk m](https://ffmpeg.org/)engunjungi website.
+2. Buka halaman yang memuat video dan cari file `m3u8` . Kita bisa memanfaatkan `View Source` atau buka _developer tool_ dan masuk ke bagian `Network` , ini berlaku untuk _browser_ Google Chrome.
+3. Buka file `m3u8` dan cari bagian `EXT-X-KEY` . Disana akan tertulis `URI`, buka `URI` di dalam _browser_ dan kunci enkripsi akan terunduh secara otomatis, ubah file kunci enkripsi tersebut menjadi `enc.key` \(penamaan tidak harus sama\).
+4. Dalam file `m3u8`, ubah `URI` pada bagian `EXT-X-KEY` menjadi `enc.key` \(atau nama lain yang digunakan di langkah sebelumnya\).
+5. Dalam file `m3u8`, cari bagian `EXTINF` , terdapat nomor pada bagian ini. Nomor tersebut adalah durasi dari pecahan video. Jumlahkan seluruh durasi yang ada pada bagian `EXTINF` untuk mengetahui total durasi video.
+6. Hapus semua bagian `EXTINF`  dan buat bagian `EXTINF` baru yang angkanya memuat total durasi video.
+7. Di bawahnya, gunakan nama dari file `.ts` yang diunduh.
+8. Letakkan file `.ts`, `.key`, dan `.m3u8` pada satu lokasi yang sama.
+9. Coba mainkan file `m3u8` menggunakan _media player_ seperti VLC, kita sudah bisa memainkan video tersebut secara normal.
+10. Untuk mengubah video menjadi mp4, jalankan _command_ `ffmpeg` berikut:
 
 ```text
 ffmpeg -protocol_whitelist file,tls,tcp,https,crypto -allowed_extensions ALL -i name_of_file.m3u8 -c copy name_of_file.mp4

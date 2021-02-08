@@ -1,6 +1,6 @@
 # Unblock Website
 
-#### Host File
+### Metode Host File
 
 Buka hosts file
 
@@ -27,9 +27,13 @@ Masukkan alamat ip & website di baris terbawah untuk membuka block website terse
 
 Simpan perubahan hosts tersebut.
 
-#### Mengetahui IP Website
+### Cara Mengetahui Alamat IP
 
-Gunakan [Google DNS](https://dns.google.com/), masukkan alamat, misalnya `madecanggih.dev` kemudian klik `Resolve` 
+Gunakan [Google DNS \(dns.google.com\)](https://dns.google.com/), masukkan alamat, misalnya `madecanggih.dev` kemudian klik `Resolve` , akan muncul beberapa Alamat IP dalam format `angka.angka.angka.angka` 
 
-Akan muncul beberapa Alamat IP dalam format `angka.angka.angka.angka` 
+Cara lain dengan menggunakan terminal / command prompt jalankan perintah berikut, dan Alamat IP akan muncul setelahnya 
+
+```text
+ping madecanggih.dev
+```
 

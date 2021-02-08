@@ -2,9 +2,9 @@
 
 Websocket is a protokol komunikasi yang memungkinkan terjadinya komunikasi 2-arah _\(full-duplex\)_, seperti ketika kita berbicara menggunakan telepon.
 
-#### 
+### 
 
-#### Kenapa Harus Websocket?
+### Kenapa Harus Websocket?
 
 Protokol komunikasi yang sering kita gunakan adalah HTTP. Setiap mengakses website, kita menggunakan HTTP atau HTTPS \(versi yang lebih aman\).
 
@@ -18,9 +18,9 @@ Artinya, komunikasi hanya terjadi 1-arah, _server_ tidak bisa menjawab bersamaan
 
 Berbeda dengan komunikais Websocket, ketika sambungan sudah terjadi_,_ kedua pihak bisa saling mengirim data tanpa harus menunggu pihak lain selesai. 
 
-\*\*\*\*
+### \*\*\*\*
 
-**Contoh Penggunaan Websokcet**
+### **Contoh Penggunaan Websokcet**
 
 Websocket sering digunakan dalam aplikasi _chatting_. 
 
