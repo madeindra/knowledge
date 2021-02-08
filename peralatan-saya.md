@@ -4,51 +4,83 @@ description: Daftar perangkat lunak yang saya gunakan sehari-hari
 
 # Peralatan Saya
 
-**Mood Diary \(Android/iOS:** [Reflectly](https://reflectly.app/)
-
-**Brain Game \(Android/iOS\)**: [Peak](https://www.peak.net/)
+### **Mobile**
 
 **Android File Transfer**: [Open MTP](https://openmtp.ganeshrvel.com/)
 
-**Browser \(Chromium-based\)**: [Brave](https://brave.com/)
+**Mood Diary**: ****[Reflectly](https://reflectly.app/)
 
-**New Tab & Task \(Chrome Extension\)**: [Dayboard](https://dayboard.co/) 
+**Brain Game**: [Peak](https://www.peak.net/)
 
-**Tab Suspender \(Chrome Extension\)**: [Marvelous Suspender](https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa?hl=en)
+**Sleep Tracker \(Android\)**: [Sleep as Android](https://sleep.urbandroid.org/) 
 
-**Email**: [Protonmail](https://protonmail.com/)
+
+
+### Browser
+
+**Browser**: [Brave](https://brave.com/)
+
+**New Tab & Task**: [Dayboard](https://dayboard.co/) 
+
+**Tab Suspender**: [Marvelous Suspender](https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa?hl=en)
+
+
+
+### Communication
+
+**Email**: [Proton Mail](https://protonmail.com/)
 
 **Chat**: [Signal](https://signal.org/) & [Discord](https://discord.com/)
 
 **VPN**: [OpenVPN](https://openvpn.net/) & [VPNGate](https://www.vpngate.net/en/)
 
-**Domain**: Google Domain
 
-**Hosting**: [Github P](https://pages.github.com/)ages
 
-**Music Player**: [Spotify](https://www.spotify.com/us/)
-
-**Video Player**: VLC
+### Software Development
 
 **IDE**: [Visual Studio Code \(VS Code\)](https://code.visualstudio.com/)
 
-\*\*\*\*[**Terminal / CLI**](https://ohmyz.sh/): zsh
+\*\*\*\*[**Terminal / CLI**](https://ohmyz.sh/): [zsh](https://ohmyz.sh/)
 
-**Zsh Prompt**: [Spaceship Promp](https://github.com/denysdovhan/spaceship-prompt)
+**Zsh Prompt**: [Spaceship Promp](https://github.com/denysdovhan/spaceship-prompt)t
+
+**Container**: [Docker](https://www.docker.com/)
 
 **API Test**: [Postman](https://www.postman.com/)
 
 **Websocket Test**: [Websocket King](https://websocketking.com/)
 
-**Text Editor**: [Sublime Text](https://www.sublimetext.com/)
+**Domain**: [Google Domain](https://domains.google.com/)
 
-**Graphic Editor**: [Canva](https://www.canva.com/)
+**Hosting**: [Github Pages](https://pages.github.com/)
+
+**Virtual Private Server**: [Vultr](https://www.vultr.com/)
+
+
+
+### Multimedia
+
+**Music Player**: [Spotify](https://www.spotify.com/us/)
+
+**Video Player**: [VLC](https://www.videolan.org/vlc/index.html)
 
 **Video Encoder**: [Handbrake](https://handbrake.fr/)
 
-**Screen Recorder**: Open Broadcast System \(OBS\)
+**Screen Recorder**: [Open Broadcast System \(OBS\)](https://obsproject.com/)
 
-**Downloader** **\(Mac\)**: Folx 
+### \*\*\*\*
+
+### **Web**
+
+**Graphic Editor**: [Canva](https://www.canva.com/)
+
+
+
+### **Other**
+
+**Text Editor**: [Sublime Text](https://www.sublimetext.com/)
+
+**Downloader** **\(Mac\)**: [Folx](https://mac.eltima.com/download-manager.html) 
 
 **Screen Divider \(Mac\)**: [Spectacle](https://www.spectacleapp.com/)
 

@@ -1,8 +1,6 @@
----
-description: Biasa disingkat HLS
----
-
 # HTTP Live Stream
+
+HTTP Live Stream, atau yang biasa disingkat HLS.
 
 Terkadang, ketika kita ingin mengunduh video yang kita tonton di internet, misalnya video kucing lucu yang ingin kita bagikan ke teman kita. Tapi sayangnya, tidak semua website meletakkan video di website mereka dalam format yang bisa diunduh, HLS adalah salah satunya.
 
