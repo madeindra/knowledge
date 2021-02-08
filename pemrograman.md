@@ -1,30 +1,32 @@
 # Pemrograman
 
-Procedural Programming
+### Daftar Istilah
 
-Object Oriented Programming \(OOP\)
+Procedural Programming: 
 
-Functional Programming
+Object Oriented Programming \(OOP\): 
 
-Compiled
+Functional Programming: 
 
-Interpreted
+Compiled: 
 
-Compile Time
+Interpreted: 
 
-Runtime
+Compile Time: 
 
-Strong Typing
+Runtime: 
 
-Weak Typing
+Strong Typing:
 
-Static Typing
+Weak Typing: 
 
-Dynamic Typing
+Static Typing: 
 
-Garbage Collection
+Dynamic Typing: 
 
-Garbage Collected
+Garbage Collection: 
+
+Garbage Collected: 
 
 
 
