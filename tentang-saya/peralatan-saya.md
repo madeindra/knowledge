@@ -76,6 +76,10 @@ description: Daftar perangkat lunak yang saya gunakan sehari-hari
 
 **Graphic Editor**: [Canva](https://www.canva.com/)
 
+**JPEG Image Compressor**: [TinyJPG](https://tinyjpg.com/)
+
+**PDF Document Tool**: [iLovePDF](https://www.ilovepdf.com/)
+
 
 
 ### **Security**
