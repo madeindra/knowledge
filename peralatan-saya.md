@@ -12,7 +12,9 @@ description: Daftar perangkat lunak yang saya gunakan sehari-hari
 
 **Brain Game**: [Peak](https://www.peak.net/)
 
-**Sleep Tracker \(Android\)**: [Sleep as Android](https://sleep.urbandroid.org/) 
+**Sleep Tracker \(Android\)**: [Sleep as Android](https://sleep.urbandroid.org/)
+
+**Money Manager**: [Spendee](https://www.spendee.com/)
 
 
 
@@ -79,6 +81,16 @@ description: Daftar perangkat lunak yang saya gunakan sehari-hari
 ### **Security**
 
 **Password Manager**: ****[Bitwarden](https://bitwarden.com/)
+
+
+
+### Investment
+
+**Emas**: [Pegadaian Digital](https://digital.pegadaian.co.id/)
+
+**Reksa** **Dana**: [Bibit](https://bibit.id/)
+
+**Cryptocurrency**: [Pintu](https://pintu.co.id/)
 
 
 
