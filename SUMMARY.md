@@ -4,11 +4,11 @@
 
 ## Pemrograman
 
-* [Daftar Istilah](pemrograman/pemrograman.md)
+* [Daftar Istilah](pemrograman/daftar-istilah.md)
 
 ## Keamanan siber
 
-* [Daftar Istilah](keamanan-siber/keamanan-siber.md)
+* [Daftar Istilah](keamanan-siber/daftar-istilah.md)
 
 ## Teknologi
 
