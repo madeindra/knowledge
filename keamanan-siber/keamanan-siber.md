@@ -1,6 +1,4 @@
-# Keamanan Siber
-
-### Daftar Istilah
+# Daftar Istilah
 
 CIA Triad
 
