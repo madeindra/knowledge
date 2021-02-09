@@ -88,6 +88,8 @@ description: Daftar perangkat lunak yang saya gunakan sehari-hari
 
 **Note Taking**: [Simplenote](https://simplenote.com/)
 
+**Grammar Check**: [Grammarly](https://grammarly.com/)
+
 **Downloader** **\(Mac\)**: [Folx](https://mac.eltima.com/download-manager.html) 
 
 **Screen Divider \(Mac\)**: [Spectacle](https://www.spectacleapp.com/)
