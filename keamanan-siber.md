@@ -4,6 +4,16 @@
 
 CIA Triad
 
+Confidentiality
+
+Integrity
+
+Availability
+
+Authorization
+
+Authentication
+
 Cryptography
 
 Encryption
