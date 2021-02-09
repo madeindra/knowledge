@@ -20,6 +20,10 @@ Encryption
 
 Decryption
 
+Hash
+
+Salt
+
 End to End Encryption
 
 Symmetric Cryptography
