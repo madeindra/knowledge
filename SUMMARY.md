@@ -2,9 +2,9 @@
 
 * [Home](README.md)
 
-## Pemrograman <a id="pemrograman-1"></a>
+## Pemrograman
 
-* [Daftar Istilah](pemrograman-1/pemrograman.md)
+* [Daftar Istilah](pemrograman/pemrograman.md)
 
 ## Keamanan siber
 
