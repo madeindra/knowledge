@@ -76,9 +76,17 @@ description: Daftar perangkat lunak yang saya gunakan sehari-hari
 
 
 
+### **Security**
+
+**Password Manager**: ****[Bitwarden](https://bitwarden.com/)
+
+
+
 ### **Other**
 
 **Text Editor**: [Sublime Text](https://www.sublimetext.com/)
+
+**Note Taking**: [Simplenote](https://simplenote.com/)
 
 **Downloader** **\(Mac\)**: [Folx](https://mac.eltima.com/download-manager.html) 
 
