@@ -19,6 +19,6 @@
 ## Tentang Saya
 
 * [Bacaan Saya](tentang-saya/bacaan-saya.md)
-* [Peralatan Saya](tentang-saya/peralatan-saya.md)
 * [IDE Saya](tentang-saya/ide-saya.md)
+* [Peralatan Saya](tentang-saya/peralatan-saya.md)
 
