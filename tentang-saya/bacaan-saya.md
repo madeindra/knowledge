@@ -28,3 +28,5 @@ description: Daftar bacaan yang paling berkesan bagi saya
 
 **Noragami** oleh **Adachitoka**
 
+**Demon Slayer** oleh **Koyoharu Goutoge**
+
