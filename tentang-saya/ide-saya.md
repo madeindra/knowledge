@@ -6,11 +6,13 @@ description: >-
 
 # IDE Saya
 
-### Visual Studio Code \(VS Code\)
+## Visual Studio Code \(VS Code\)
 
-[Klik untuk mengunjungi website atau mendownload VS Code](https://code.visualstudio.com/)
+[Klik untuk mengunjungi website atau mendownload VS Code](https://code.visualstudio.com/)\*\*\*\*
 
-Pro:
+### **Kenapa VS Code?**
+
+#### **Kelebihan \(Pro\)**
 
 * Open Source & Free!
 * Support semua platform \(Windows, Linux, MacOS\)
@@ -20,13 +22,13 @@ Pro:
 * Ada fitur Git
 * Ada fitur debug 
 
-Cons:
+#### **Kekurangan \(Cons\)**
 
 * Intelisense tidak sebagus IDE khusus bahasa tertentu \(bisa diatasi dengan _extension\)_
 
 #### 
 
-#### Extension Saya
+### Extension Saya
 
 [**Bracket Pair Colorizer 2**](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): Mewarnai pasangan bracket \(tanda kurung\), lebih mudah membaca bracket
 
