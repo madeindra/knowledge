@@ -94,3 +94,13 @@ Flash Crowd
 
 Bottleneck
 
+Brute Force
+
+Rainbow Table
+
+Dictionary Attack
+
+Zero-Day Vulnerability
+
+
+
