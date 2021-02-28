@@ -30,11 +30,15 @@ description: >-
 
 ### Extension Saya
 
+\*\*\*\*[**Better Comment**](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments): Membaut _comment_ jadi lebih baik
+
 [**Bracket Pair Colorizer 2**](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): Mewarnai pasangan bracket \(tanda kurung\), lebih mudah membaca bracket
 
 [**Coverage Gutter**](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters): Menandai baris kode yang sudah dites dan belum ditest
 
 [**Docker**](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker): Memudahkan pengelolaan container docker dalam VS Code
+
+\*\*\*\*[**Error Lens**](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): Menampilkan konteks dari _error_ 
 
 \*\*\*\*[**Git Graph**](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Memvisualisasikan branch pada git
 
